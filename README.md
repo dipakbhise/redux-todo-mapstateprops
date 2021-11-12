@@ -1,3 +1,5 @@
+<a href="https://dipakbhise.github.io/redux-todo-mapstateprops">Task</a>
+
 ## >> Added Redux Devtools extension in store.
 
 ## >> Delete Feature Added :
@@ -16,9 +18,9 @@ In Every Newly Added To Do I have Added Button of Delete and its feature of Dele
 etc.
 
 ## What can we do to improve the application?
->> We Can use Localstorage to store the todolist items. If we refresh the webpage it cannot be disappear.
->> Some UI changes.
->> Add Date of Completion of Task. Add Due Date of Todo. If Due date expires We can show the alert to the user.
->> We Can use srviceworkers to make the app Progressive and if we are in offline mode the todolist was shown by using serviceworkers.
->> We can add Edit feature to edit the particular todolist item.
+1. We Can use Localstorage to store the todolist items. If we refresh the webpage it cannot be disappear.
+2. Some UI changes.
+3. Add Date of Completion of Task. Add Due Date of Todo. If Due date expires We can show the alert to the user.
+4. We Can use srviceworkers to make the app Progressive and if we are in offline mode the todolist was shown by using serviceworkers.
+5. We can add Edit feature to edit the particular todolist item.
 
