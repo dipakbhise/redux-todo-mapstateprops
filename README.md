@@ -1,12 +1,12 @@
-## Added Redux Devtools extension in store.
+## >> Added Redux Devtools extension in store.
 
-## Delete Feature Added :
+## >> Delete Feature Added :
 In this feature I have ceated the action of delete todo
 In Every Newly Added To Do I have Added Button of Delete and its feature of Deleting
 >> Added Redux to ToDo Component
 >> In ToDoList component I have sended the id to the child component i.e. ToDO component for Deleting the Todo item.
 
-## Working on Complete/Incomplete Marking Feature
+## >> Working on Complete/Incomplete Marking Feature
 
 
 ##Bugs And Errors
