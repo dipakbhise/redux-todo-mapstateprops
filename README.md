@@ -8,7 +8,7 @@ In Every Newly Added To Do I have Added Button of Delete and its feature of Dele
 >> Added Redux to ToDo Component
 >> In ToDoList component I have sended the id to the child component i.e. ToDO component for Deleting the Todo item.
 
-## >> Working on Completed/Incompleted todo Marking Feature
+## >> Added Completed/Incompleted todo Marking Feature
 
 
 ##Bugs And Errors
