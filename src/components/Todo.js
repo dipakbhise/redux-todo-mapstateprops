@@ -10,21 +10,23 @@ const Todo = ({ onClick, completed, text, id, deleted, marked, status }) => (
   <ListGroupItem
     onClick={onClick}
     style={{
-      textDecoration: completed ? 'line-through' : 'none',
+      textDecoration: completed ? 'line-through' : 'none', width:"100%"
     
     }}
   >
 
 <input type="checkbox" style={{
-      margin:"0px 10px 0px 0px",
+      marginRight:"10px",
       
     }} onClick={()=> marked(!status, id)}></input>
   
-    {text}
+    <span style={{
+      width:"100%",
+    }}>{text}</span>
    
 
 <Button style={{
-      margin:"0px 10px 0px 500px",
+      marginLeft:"1000px",
     }} onClick={()=>deleted(id)}>Delete</Button>
 
 
