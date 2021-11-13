@@ -18,12 +18,18 @@ const todos = (state = [], action) => {
 
       case 'DELETE_TODO':
         return state.filter(todo =>
-          (todo.id != action.id)
+          (todo.id !== action.id)
             
         )
 
-        // case 'MARK_TODO':
-        // return 
+        case 'MARK_TODO':
+          
+        return state.map(todo =>
+          (todo.id === action.id)
+            ? {...todo, completed: !todo.completed}
+            : todo
+        )
+        
 
 
 

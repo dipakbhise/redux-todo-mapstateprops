@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Form, Row, Col, InputGroup, InputGroupAddon, Input, Button } from 'reactstrap';
+import { Form, Row, Col, InputGroup, InputGroupAddon, Button } from 'reactstrap';
 import { addTodo } from '../actions'
 
 const AddTodo = ({ dispatch }) => {

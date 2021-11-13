@@ -15,24 +15,21 @@ const Todo = ({ onClick, completed, text, id, deleted, marked, status }) => (
     }}
   >
 
+<input type="checkbox" style={{
+      margin:"0px 10px 0px 0px",
+      
+    }} onClick={()=> marked(!status, id)}></input>
   
     {text}
-    <Button style={{
-      margin:"0px 10px 0px 500px",
-      
-    }} onClick={()=> console.log(status)}>Mark as Completed</Button>
+   
 
 <Button style={{
-      margin:"0 0 0 10px"
+      margin:"0px 10px 0px 500px",
     }} onClick={()=>deleted(id)}>Delete</Button>
 
 
-    
-    
   </ListGroupItem>
 
-  
-  
 )
 
 
@@ -48,8 +45,8 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
 
-  deleted: (id) => dispatch(deleteTodo(id))
-  // marked : (status) => dispatch(markTodo(status))
+  deleted: (id) => dispatch(deleteTodo(id)),
+  marked : (status, id) => dispatch(markTodo(status, id))
 })
 
 export default connect(

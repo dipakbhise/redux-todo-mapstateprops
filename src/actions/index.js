@@ -25,7 +25,8 @@ export const deleteTodo = (id) => ({
   id
 })
 
-export const markTodo = (status) => ({
+export const markTodo = (status, id) => ({
   type: 'MARK_TODO',
-  status
+  status,
+  id
 })

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, ListGroup } from 'reactstrap';
+import { ListGroup } from 'reactstrap';
 import Todo from './Todo';
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 
 const TodoList = ({ todos, toggleTodo }) => (
   <ListGroup style={{ marginTop: 10, marginBottom: 10 }}>
@@ -23,11 +23,6 @@ const TodoList = ({ todos, toggleTodo }) => (
     
     
     )}
-
-    
-
-    
-
 
   </ListGroup>
   
