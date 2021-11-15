@@ -1,4 +1,4 @@
-Click Here => <a href="https://dipakbhise.github.io/redux-todo-mapstateprops"><h1>Visit Task</h1></a>
+<a href="https://dipakbhise.github.io/redux-todo-mapstateprops"><h1>Click Here to Visit Task</h1></a>
 
 ## >> Added Redux Devtools extension in store.
 
