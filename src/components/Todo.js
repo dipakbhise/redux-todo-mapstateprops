@@ -7,30 +7,37 @@ import { deleteTodo, markTodo } from '../actions'
 
 const Todo = ({ onClick, completed, text, id, deleted, marked, status }) => (
 
+  
+
   <ListGroupItem
     onClick={onClick}
     style={{
-      textDecoration: completed ? 'line-through' : 'none', width:"100%"
+      textDecoration: completed ? 'line-through' : 'none', background:"#E9F4F5", margin:"5px 0", borderRadius:"5px 10px", border:"1px #E9F4F5", fontFamily:"cursive"
     
     }}
   >
 
+
 <input type="checkbox" style={{
       marginRight:"10px",
+      cursor:"pointer",
       
-    }} onClick={()=> marked(!status, id)}></input>
+    }} onClick={()=> marked(!status, id)}></input> 
+    
   
-    <span style={{
-      width:"100%",
-    }}>{text}</span>
+    <span>{text}</span>
    
 
 <Button style={{
-      marginLeft:"1000px",
-    }} onClick={()=>deleted(id)}>Delete</Button>
+    //  position:"relative", left:"100px"
+    marginLeft:"1000px",
+      
+    
+    }} onClick={()=>deleted(id)}>Delete</Button> 
 
 
   </ListGroupItem>
+  
 
 )
 
