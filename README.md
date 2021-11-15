@@ -14,9 +14,8 @@ In Every Newly Added To Do I have Added Button of Delete and its feature of Dele
 ##Bugs And Errors
 1. Containers folder - In FilterLink component their is not called the onclick function
 2. components folder - In Footer component their is mistake in action type of SHOW_COMPLETED
-3. reducers folder - In index.js their is unwanted use of spread operator
-etc.
-4. Marrking/Unmarking
+3. reducers folder - In index.js their is unwanted use of spread operator.
+4. Marrking/Unmarking etc.
 
 ## What can we do to improve the application?
 1. We Can use Localstorage to store the todolist items. If we refresh the webpage it cannot be disappear.
